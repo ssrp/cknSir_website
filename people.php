@@ -13,7 +13,7 @@
 	<!--
 		Setting The Logo!
 		-->
-	<link rel="shortcut icon" href="images/logo.jpg">
+	<link rel="shortcut icon" href="images/icon.png">
 </head>
 <body>
 	<center>
@@ -24,21 +24,15 @@
 				<br>
 				<div id = "navbar_hr">
 					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.4em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
 				</div>
-				<div id = "navbar_options">
+				<div id = "navbar_options" style= "font-size:1.1em">
 						<ul>
-						  <li><a href="./index.php">HOME</a></li>
-						  <li><a href="./research.php">RESEARCH</a></li>
-						  <li><a href="./publications.php">PUBLICATIONS</a></li>
-						  <li><a href="./teaching.php">TEACHING</a></li>
-						  <li><a class="active" href="./people.php">PEOPLE</a></li>
-						  <li><a href="./resources.php">RESOURCES</a></li>
+						  <li><a href="./index.php" style= "color:#0000A0">HOME</a></li>
+						  <li><a href="./research.php" style= "color:#0000A0">RESEARCH</a></li>
+						  <li><a href="./publications.php" style= "color:#0000A0">PUBLICATIONS</a></li>
+						  <li><a href="./teaching.php" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a class="active" href="./people.php" style= "color:#0000A0">PEOPLE</a></li>
+						  <li><a href="./resources.php" style= "color:#0000A0">RESOURCES</a></li>
 						</ul>
 				</div>
 			</div>
@@ -54,37 +48,27 @@
 			<div id = "footer">
 				<br>
 				<div id = "footer_hr">
-					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.45em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
+					<hr width = "60%" style = "transform:translateY(0.3em);"/>
 				</div>
-				
-
-
 				<div id = "footer_options">
-						<ul style = "margin:-1.5em; padding-top:0.5em">
-						  <li><a href="#twitter">Twitter</a></li>
-						  <li><a href="#fb">Facebook</a></li>
-						  <li><a href="#in">LinkedIn</a></li>
-						  <li><a href="#insta">Instagram</a></li>
-						  <li><a href="#mail">Mail</a></li>
+						<ul class = "toolbar" style = "margin:-1.4em; padding-top:0.5em;display:inline-block">
+						  <li><a href="https://www.linkedin.com/in/narayananck">LinkedIn</a></li>
+						  <li><a href="#mail" onclick = "alert('E-mail: ckn@iitrpr.ac.in')">Mail</a></li>
 						</ul>
+						  
 				</div>
 				<div id = "footer_hr">
-					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.55em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
+					<hr width = "60%" style = "transform:translateY(-0.5em);"/>
+					<div id = "tracker" style = "transform:translateY(-0.5em)">
+						<script type="text/javascript" src="http://s2.tracemyip.org/tracker/lgUrl.php?stlVar2=1327&amp;rgtype=4684NR-IPIB&amp;pidnVar2=41297&amp;prtVar2=1&amp;scvVar2=12"></script><noscript><a href="http://en.ipwebtracker.com" target="_blank"><img src="http://s2.tracemyip.org/tracker/1327/4684NR-IPIB/41297/1/12/ans/" alt="ip tracker" border="0"></a></noscript>
+
+						&nbsp;
+						<span style = "font-size:1.1em">
+							Designed by <a href = "https://github.com/ssrp/" style = "color:#888888"><b>Sai Samarth R Phaye</b></a>
+						</span>
+					</div>
 				</div>
 			</div>
- 	
 
 		</div>
 	</center>

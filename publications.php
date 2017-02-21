@@ -14,115 +14,121 @@
 	<!--
 		Setting The Logo!
 		-->
-	<link rel="shortcut icon" href="images/logo.jpg">
+	<link rel="shortcut icon" href="images/icon.png">
 </head>
 <body>
 	<center>
 		<div id = "container">
-			<h1 style = "font-family:'Varela'; padding:0em; margin-bottom:0em"><a href = "http://www.iitrpr.ac.in" style = "color:black" target = "_blank">Indian Institute of Technology Ropar</a></h1>
-			<br><h3 style = "font-family:'Varela'; margin:0em; padding:0em">NARAYANAN C KRISHNAN</h3>
 			
+			<div style = "height:8em; width:75%; border:2px solid transparent; margin-top:0.2em; margin-bottom:-1em">
+				
+				<div id = "top_data" style= "display:inline-block; float: left;">
+						<h1 style = "font-family:'Varela'; padding:0em; margin-bottom:0em; padding-left:10px; padding-right:10px;"><a href = "http://www.iitrpr.ac.in" style = "color:black" target = "_blank">Indian Institute of Technology Ropar</a></h1>
+					<br><h3 style = "font-family:'Varela';float:left; margin:0em; padding:0em; padding-left:10px;display:inline-block; padding-right:10px">NARAYANAN C KRISHNAN</h3>
+				</div>
+				<img src = "images/logo.jpg" style = "float:right;height:100%; transform:translateY(0.5em)" />
+			</div>
 			<div id = "navbar">
 				<br>
 				<div id = "navbar_hr">
 					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.4em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
 				</div>
-				<div id = "navbar_options">
+				<div id = "navbar_options" style= "font-size:1.1em">
 						<ul class = "toolbar">
-						  <li><a href="./index.php">HOME</a></li>
-						  <li><a href="./research.php">RESEARCH</a></li>
-						  <li><a class="active" href="./publications.php">PUBLICATIONS</a></li>
-						  <li><a href="./teaching.php">TEACHING</a></li>
-						  <li><a href="./resources.php">RESOURCES</a></li>
+						  <li><a href="./index.php" style= "color:#0000A0">HOME</a></li>
+						  <li><a href="./research.php" style= "color:#0000A0">RESEARCH</a></li>
+						  <li><a class="active" href="./publications.php" style= "color:#0000A0">PUBLICATIONS</a></li>
+						  <li><a href="./teaching.php" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a href="./resources.php" style= "color:#0000A0">RESOURCES</a></li>
 						</ul>
 				</div>
 			</div>
 
 			<div id = "main_container">
+				<div id = "toolbar">
+						<nav class = "text-center" style = "margin-bottom: 0em">
+							<ul class="pagination">
+								<li><a href="#" onclick = "goto(0)"><spna class = "">Journal Articles</span></a></li>
+								<li><a href="#" onclick = "goto(1)"><spna class = "">Books</span></a></li>
+								<li><a href="#" onclick = "goto(2)"><spna class = "">Book Chapters</span></a></li>
+								<li><a href="#" onclick = "goto(3)"><spna class = "">Conference and Workshop Articles</span></a></li>
+							</ul>
+						</nav>
+					</div>
 
-					<center><h3 style = "font-family:'Varela'">- <b>JOURNALS ARTICLES</b> -</h3></center>
-					<ol>
-						<li> B Das, D Cook, N C Krishnan, and M Schmitter-Edgecombe, Real-time activity error prediction to assist older adults in smart homes: An outlier detection based approach, accepted IEEE Journal of Special Topics in Signal Processing, 2016.</li>
-					    <li>B Das, N C Krishnan, D Cook, WRACOG: A Wrapper Approach to Oversampling for Learning from Imbalanced Class Datasets, IEEE Transactions on Knowledge and Data Engineering, 27(1):222-234, 2015. </li>
-					    <li>D Cook, N C Krishnan, Mining Smart Home data, Journal of Intelligent Information Systems, Journal of Intelligent Information Systems, 43(3):503-519, 2014.</li>
-					    <li>N C Krishnan, D Cook, Activity Recognition on Streaming Sensor Data, Journal of Pervasive and Mobile Computing, 10(B), 138-154, 2014.</li>
-						<li>R I Dogan, Y Gil, H Hirsh, N C Krishnan, M Lewis, C Meriçli, P Rashidi, V Raskin, S Swarup, W Sun, J M. Taylor, L Yeganova: Reports on the 2012 AAAI Fall Symposium Series. AI Magazine 34(1): 93-100, 2013.</li>
-					    <li>D Cook, K D Feuz, N C Krishnan, Transfer Learning for Activity Recognition: A Survey, Springer International Journal on Knowledge and Information Systems, 36(3), 537-556, 2013.</li>
-						<li>D Cook, A S Crandall, B L Thomas, N C Krishnan, CASAS: A Smart Home in a Box, IEEE Computers, 46(7), 62-69, 2013.</li>   
-					    <li>D Cook, N C Krishnan, P Rashidi, Activity Discovery and Activity Recognition: A New Partnership, IEEE Transactions on systems, man and cybernetics, 43(3), 820-828, 2013.</li>
-					    <li>N C  Krishnan,C Juillard, D Colbry, S Panchanathan, Recognition of hand movements using  wearable accelerometers, in the Journal of Ambient Intelligent and Smart  Environments, Special Issue on Wearable Computing, Vol. 1 (2), pp. 143 – 156,  2009</li>
-					  </ol>
-					<hr>
-					<center><h3 style = "font-family:'Varela'">- <b>BOOKS</b> -</h3></center>
-					<ol>
-						<li>Activity Learning: Discovering, Recognizing, and Predicting Human Behavior from Sensor Data, D Cook and N C Krishnan, John Wiley & Sons Inc., 2015</li>
-					</ol>
-					<hr>
-					<center><h3 style = "font-family:'Varela'">- <b>BOOK CHAPTERS</b> -</h3></center>
-					<ol>
-						<li>B Das, N C. Krishnan, D J. Cook, Handling Imbalanced and Overlapping Classes in Smart Environments Prompting Dataset, Springer book on Data Mining for Service,119-219, 2014. </li>
-						<li>N C Krishnan, S Panchanathan, Body Sensor Networks for Activity and Gesture Recognition, Springer Book on Wireless Sensor Networks, 2013.</li>
-						<li>B Das, N C Krishnan, D Cook, Automated Activity Interventions to Assist with Activities of Daily Living, IOS Press book on Agent-Based Approaches to Ambient Intelligence, 137-158, 2012.</li>
-						<li>P Rashidi, N C Krishnan, D Cook, Discovering and tracking patterns of interest in security sensor streams, In Securing Cyber-Physical Infrastructures, Eds: S Das, K Kant and N Zhang, Chapter 19, 2012.</li>
-					</ol>
-					<hr>
-					<center><h3 style = "font-family:'Varela'">- <b>CONFERENCE AND WORKSHOP ARTICLES</b> -</h3></center>	
-					<ol>
-						<li> G Mittal, K B Yagnik, M Garg, and N C Krishnan, Spot Garbage: Smartphone App to Detect Garbage Using Deep Learning, accepted to ACM International Joint Conference on Pervasive and Ubiquitous Computing, 2016.</li>
-						<li> S Sukhija, N C Krishnan, and G Singh, Supervised Heterogeneous Domain Adaptation via Random Forests, International Joint Conference on Artificial Intelligence, 2039-2045, 2016.</li>
-						<li> S Sukhija, and N C Krishnan, Supervised Heterogeneous Domain Adaptation via Random Forests, Indian Workshop on Machine Learning, 2016.</li>
-						<li>R Kumar, I Qamar, J S Virdi and N C Krishnan, Multi-label Learning for Activity Recognition,  International Conference on Intelligent Environments, 152-155, 2015.</li>
-						<li>B Das, N C Krishnan, D Cook, wRACOG: A Gibbs Sampling-Based Oversampling Technique, IEEE International Conference on Data Mining, 2013.</li>
-						<li>B Das, N C Krishnan, D Cook, Handling Class Overlap and Imbalance to Detect Prompt Situations in Smart Homes, accepted to IEEE International Conference on Data Mining Workshop on Data Mining in Bioinformatics and Healthcare, 2013.</li>
-						<li>N Darnall, N C Krishnan, J D Carlson, D R Greely, J Mark, M Schmitter-Edgecombe, D C Lin, Identifying the presence of Dyskenisa in patients with Parkinson’s disease from accelerometer data, ASME Summer Bioengineering Conference 2013.</li>
-						<li>S Dernbach, B Das, N C Krishnan, B L Thomas, D Cook, Activity Recognition on Smart   Phones, IEEE International Conference on Intelligent Environments, 2012.</li>
-						<li>A Crandall, L Zulas, K Feuz, N C Krishnan, D Cook, Visualizing Your   Ward: Bringing Smart Home Data to Caregivers, ACM CHI workshop on Emerging   Technologies for Healthcare and Aging, 2012.</li>
-						<li>Yasamin Sahaf, N C Krishnan, D Cook,   Defining Activity Complexity, AAAI workshop on Activity and Context   Representation, 2011.</li>
-						<li>R Chattopadhyay, N C Krishnan, S   Panchanathan, Hierarchical domain adaptation for SEMG signal classification   across multiple subjects, submitted to 33rd IEEE Conference on   Engineering in Medicine and Biology, USA 2011.</li>
-						<li>N C   Krishnan Scalable Activity Recognition, NSF workshop on Pervasive Computing at   Scale, <strong>Lead</strong> on <em>Machine Learning,   Behavior Modeling and Data mining</em>, USA, 2011.</li>
-						<li>R Chattopadhyay, N C Krishnan, S   Panchanathan, Topology preserving domain adaptation for addressing subject   based variability in SEMG signal, AAAI spring symposium on Computational   Physiology, Palo Alto, USA, 2011.</li>
-						<li>Prasanth Lade, N C Krishnan, S Panchanathan,   Task prediction in cooking activities using hierarchical state space Markov   chain and object based task grouping, IEEE International symposium on   Multimedia workshop on multimedia for cooking and eating activities, Taichung,   Taiwan, 2010.</li>
-						<li>Ashok Venkatesan, N C Krishnan, S   Panchanathan, Cost sensitive boosting for concept Drift, accepted to European   Conference on Machine learning workshop on handling concept drift in Adaptive   Information systems, Barcelona, Spain, 2010.</li>
-						<li>N C   Krishnan, L Prasanth, S Panchanathan, Activity gesture spotting using a   threshold model based on Adaptive Boosting, International Conference on   Multimedia and Expo, Singapore, 2010.</li>
-						<li>N C   Krishnan<strong>, </strong>G N Pradhan, S Panchanathan, Recognizing short duration hand movements   from accelerometer data, ICME workshop on Multimedia Aspects in Pervasive Health   Care 2009.(<em>Invited Paper</em>)<strong></strong></li>
-						<li>S Krishna<strong>, </strong>N C Krishnan<strong>, </strong>S Panchanathan<strong>, </strong>Detecting   Stereotype body rocking behavior through embodied Motion sensors, accepted in   Rehabilitation Engineering and Assistive Technology Society of North America   Annual Conference, 2009.<strong></strong></li>
-						<li>S Panchanathan, N C Krishnan, S Krishna, T   McDaniel, V Balasubramanian, Enriched human-centered multimedia computing   through inspirations from disabilities and deficit centered computing   solutions, ACM MM 3rd Workshop on Human Centered Computing, Vancouver,   Canada, 2008.</li>
-						<li>N C   Krishnan<strong>, </strong>D Colbry, C Juillard, S Panchanathan, Real time human activity   recognition using tri-axial accelerometers, Sensors Signals and Information   Processing Workshop, Sedona, USA, 2008.</li>
-						<li>N C   Krishnan<strong>, </strong>S Panchanathan<strong>, </strong>Analysis of low resolution accelerometer data for   human activity recognition, International Conference on Acoustic Speech and   Signal Processing, ICASSP Las Vegas, USA 2008.</li>
-						<li>S Krishna, V Balasubramanian<strong>, </strong>N C Krishnan,   C Juillard, T Hedgpeth, S Panchanathan, A wearable wireless RFID system for   accessible shopping environments, 3rd Intl Conference on Body Area Networks   (BodyNets&rsquo;08), Tempe, USA, 2008.</li>
-						<li>S Krishna, V Balasubramanian<strong>, </strong>N C Krishnan<strong>, </strong>T   Hedgpeth, The iCARE Ambient Interactive Shopping Environment, California State   University, Northridge, Center on Disabilities' 23rd Annual International   Technology and Persons with Disabilities Conference (CSUN 2008), Los Angeles,   USA, 2008.</li>
-						<li>N C   Krishnan<strong>, </strong>B Li, S Panchanathan, Detecting and classifying frontal, back and   profile views of humans, International conference on Vision theory and   applications (VISAPP 2007), Barcelona, Spain, 2007.</li>
-						<li>J A Black, S B Braiman, N C Krishnan<strong>, </strong>S   Panchanathan, The role of eye movement signals in dorsal and ventral   processing, SPIE Conference on Human Vision and Electronic Imaging (HVEI   2007), San Jose, USA, 2007.</li>
-						<li>K Kahol, N C Krishnan<strong>, </strong>V Balasubramanian, S   Panchanathan, M Smith, J Ferrara, Measuring movement expertise in surgical   tasks, ACM Multimedia Conference, Santa Barbara, USA, 2006. </li>
-						<li>B S Raghavendra<strong>, </strong>N C Krishnan<strong>, </strong>G Sita, A G   Ramakrishnan, M Sriganesh, Prototype learning methods for online handwriting   recognition, International Conference on Document Analysis and Recognition   (ICDAR 2005), Seoul Korea, 2005.</li>
-						<li>P Saravanan<strong>, </strong>N C Krishnan<strong>, </strong>P V S S Prakash,   G V P Rao, Techniques for video mosaicing, World Enformatika Conference,   Istanbul, Turkey, 2005.</li>
-						<li>N C Krishnan, M C Prakash, G V P Rao, High-level feature   extraction in JPEG compressed domain, SPIE International symposium on optical   science and engineering, USA, 2004.</li>
-					</ol>
-
+					<div id = "journals" style = "display:block">
+						<center><h3 style = "font-family:'Varela'">- <b>JOURNALS ARTICLES</b> -</h3></center>
+						<ol>
+							<li> B Das, D Cook, N C Krishnan, and M Schmitter-Edgecombe, Real-time activity error prediction to assist older adults in smart homes: An outlier detection based approach, accepted IEEE Journal of Special Topics in Signal Processing, 2016.</li>
+						    <li>B Das, N C Krishnan, D Cook, WRACOG: A Wrapper Approach to Oversampling for Learning from Imbalanced Class Datasets, IEEE Transactions on Knowledge and Data Engineering, 27(1):222-234, 2015. </li>
+						    <li>D Cook, N C Krishnan, Mining Smart Home data, Journal of Intelligent Information Systems, Journal of Intelligent Information Systems, 43(3):503-519, 2014.</li>
+						    <li>N C Krishnan, D Cook, Activity Recognition on Streaming Sensor Data, Journal of Pervasive and Mobile Computing, 10(B), 138-154, 2014.</li>
+							<li>R I Dogan, Y Gil, H Hirsh, N C Krishnan, M Lewis, C Meriçli, P Rashidi, V Raskin, S Swarup, W Sun, J M. Taylor, L Yeganova: Reports on the 2012 AAAI Fall Symposium Series. AI Magazine 34(1): 93-100, 2013.</li>
+						    <li>D Cook, K D Feuz, N C Krishnan, Transfer Learning for Activity Recognition: A Survey, Springer International Journal on Knowledge and Information Systems, 36(3), 537-556, 2013.</li>
+							<li>D Cook, A S Crandall, B L Thomas, N C Krishnan, CASAS: A Smart Home in a Box, IEEE Computers, 46(7), 62-69, 2013.</li>   
+						    <li>D Cook, N C Krishnan, P Rashidi, Activity Discovery and Activity Recognition: A New Partnership, IEEE Transactions on systems, man and cybernetics, 43(3), 820-828, 2013.</li>
+						    <li>N C  Krishnan,C Juillard, D Colbry, S Panchanathan, Recognition of hand movements using  wearable accelerometers, in the Journal of Ambient Intelligent and Smart  Environments, Special Issue on Wearable Computing, Vol. 1 (2), pp. 143 – 156,  2009</li>
+						</ol>
+					</div>
+					<div id = "books" style = "display:none">
+						<center><h3 style = "font-family:'Varela'">- <b>BOOKS</b> -</h3></center>
+						<ol>
+							<li>Activity Learning: Discovering, Recognizing, and Predicting Human Behavior from Sensor Data, D Cook and N C Krishnan, John Wiley & Sons Inc., 2015</li>
+						</ol>
+					</div>
+					<div id = "chapters" style = "display:none">
+						<center><h3 style = "font-family:'Varela'">- <b>BOOK CHAPTERS</b> -</h3></center>
+						<ol>
+							<li>B Das, N C. Krishnan, D J. Cook, Handling Imbalanced and Overlapping Classes in Smart Environments Prompting Dataset, Springer book on Data Mining for Service,119-219, 2014. </li>
+							<li>N C Krishnan, S Panchanathan, Body Sensor Networks for Activity and Gesture Recognition, Springer Book on Wireless Sensor Networks, 2013.</li>
+							<li>B Das, N C Krishnan, D Cook, Automated Activity Interventions to Assist with Activities of Daily Living, IOS Press book on Agent-Based Approaches to Ambient Intelligence, 137-158, 2012.</li>
+							<li>P Rashidi, N C Krishnan, D Cook, Discovering and tracking patterns of interest in security sensor streams, In Securing Cyber-Physical Infrastructures, Eds: S Das, K Kant and N Zhang, Chapter 19, 2012.</li>
+						</ol>
+					</div>
+					<div id = "conferences" style = "display:none">
+						<center><h3 style = "font-family:'Varela'">- <b>CONFERENCE AND WORKSHOP ARTICLES</b> -</h3></center>	
+						<ol>
+							<li> G Mittal, K B Yagnik, M Garg, and N C Krishnan, Spot Garbage: Smartphone App to Detect Garbage Using Deep Learning, accepted to ACM International Joint Conference on Pervasive and Ubiquitous Computing, 2016.</li>
+							<li> S Sukhija, N C Krishnan, and G Singh, Supervised Heterogeneous Domain Adaptation via Random Forests, International Joint Conference on Artificial Intelligence, 2039-2045, 2016.</li>
+							<li> S Sukhija, and N C Krishnan, Supervised Heterogeneous Domain Adaptation via Random Forests, Indian Workshop on Machine Learning, 2016.</li>
+							<li>R Kumar, I Qamar, J S Virdi and N C Krishnan, Multi-label Learning for Activity Recognition,  International Conference on Intelligent Environments, 152-155, 2015.</li>
+							<li>B Das, N C Krishnan, D Cook, wRACOG: A Gibbs Sampling-Based Oversampling Technique, IEEE International Conference on Data Mining, 2013.</li>
+							<li>B Das, N C Krishnan, D Cook, Handling Class Overlap and Imbalance to Detect Prompt Situations in Smart Homes, accepted to IEEE International Conference on Data Mining Workshop on Data Mining in Bioinformatics and Healthcare, 2013.</li>
+							<li>N Darnall, N C Krishnan, J D Carlson, D R Greely, J Mark, M Schmitter-Edgecombe, D C Lin, Identifying the presence of Dyskenisa in patients with Parkinson’s disease from accelerometer data, ASME Summer Bioengineering Conference 2013.</li>
+							<li>S Dernbach, B Das, N C Krishnan, B L Thomas, D Cook, Activity Recognition on Smart   Phones, IEEE International Conference on Intelligent Environments, 2012.</li>
+							<li>A Crandall, L Zulas, K Feuz, N C Krishnan, D Cook, Visualizing Your   Ward: Bringing Smart Home Data to Caregivers, ACM CHI workshop on Emerging   Technologies for Healthcare and Aging, 2012.</li>
+							<li>Yasamin Sahaf, N C Krishnan, D Cook,   Defining Activity Complexity, AAAI workshop on Activity and Context   Representation, 2011.</li>
+							<li>R Chattopadhyay, N C Krishnan, S   Panchanathan, Hierarchical domain adaptation for SEMG signal classification   across multiple subjects, submitted to 33rd IEEE Conference on   Engineering in Medicine and Biology, USA 2011.</li>
+							<li>N C   Krishnan Scalable Activity Recognition, NSF workshop on Pervasive Computing at   Scale, <strong>Lead</strong> on <em>Machine Learning,   Behavior Modeling and Data mining</em>, USA, 2011.</li>
+							<li>R Chattopadhyay, N C Krishnan, S   Panchanathan, Topology preserving domain adaptation for addressing subject   based variability in SEMG signal, AAAI spring symposium on Computational   Physiology, Palo Alto, USA, 2011.</li>
+							<li>Prasanth Lade, N C Krishnan, S Panchanathan,   Task prediction in cooking activities using hierarchical state space Markov   chain and object based task grouping, IEEE International symposium on   Multimedia workshop on multimedia for cooking and eating activities, Taichung,   Taiwan, 2010.</li>
+							<li>Ashok Venkatesan, N C Krishnan, S   Panchanathan, Cost sensitive boosting for concept Drift, accepted to European   Conference on Machine learning workshop on handling concept drift in Adaptive   Information systems, Barcelona, Spain, 2010.</li>
+							<li>N C   Krishnan, L Prasanth, S Panchanathan, Activity gesture spotting using a   threshold model based on Adaptive Boosting, International Conference on   Multimedia and Expo, Singapore, 2010.</li>
+							<li>N C   Krishnan<strong>, </strong>G N Pradhan, S Panchanathan, Recognizing short duration hand movements   from accelerometer data, ICME workshop on Multimedia Aspects in Pervasive Health   Care 2009.(<em>Invited Paper</em>)<strong></strong></li>
+							<li>S Krishna<strong>, </strong>N C Krishnan<strong>, </strong>S Panchanathan<strong>, </strong>Detecting   Stereotype body rocking behavior through embodied Motion sensors, accepted in   Rehabilitation Engineering and Assistive Technology Society of North America   Annual Conference, 2009.<strong></strong></li>
+							<li>S Panchanathan, N C Krishnan, S Krishna, T   McDaniel, V Balasubramanian, Enriched human-centered multimedia computing   through inspirations from disabilities and deficit centered computing   solutions, ACM MM 3rd Workshop on Human Centered Computing, Vancouver,   Canada, 2008.</li>
+							<li>N C   Krishnan<strong>, </strong>D Colbry, C Juillard, S Panchanathan, Real time human activity   recognition using tri-axial accelerometers, Sensors Signals and Information   Processing Workshop, Sedona, USA, 2008.</li>
+							<li>N C   Krishnan<strong>, </strong>S Panchanathan<strong>, </strong>Analysis of low resolution accelerometer data for   human activity recognition, International Conference on Acoustic Speech and   Signal Processing, ICASSP Las Vegas, USA 2008.</li>
+							<li>S Krishna, V Balasubramanian<strong>, </strong>N C Krishnan,   C Juillard, T Hedgpeth, S Panchanathan, A wearable wireless RFID system for   accessible shopping environments, 3rd Intl Conference on Body Area Networks   (BodyNets&rsquo;08), Tempe, USA, 2008.</li>
+							<li>S Krishna, V Balasubramanian<strong>, </strong>N C Krishnan<strong>, </strong>T   Hedgpeth, The iCARE Ambient Interactive Shopping Environment, California State   University, Northridge, Center on Disabilities' 23rd Annual International   Technology and Persons with Disabilities Conference (CSUN 2008), Los Angeles,   USA, 2008.</li>
+							<li>N C   Krishnan<strong>, </strong>B Li, S Panchanathan, Detecting and classifying frontal, back and   profile views of humans, International conference on Vision theory and   applications (VISAPP 2007), Barcelona, Spain, 2007.</li>
+							<li>J A Black, S B Braiman, N C Krishnan<strong>, </strong>S   Panchanathan, The role of eye movement signals in dorsal and ventral   processing, SPIE Conference on Human Vision and Electronic Imaging (HVEI   2007), San Jose, USA, 2007.</li>
+							<li>K Kahol, N C Krishnan<strong>, </strong>V Balasubramanian, S   Panchanathan, M Smith, J Ferrara, Measuring movement expertise in surgical   tasks, ACM Multimedia Conference, Santa Barbara, USA, 2006. </li>
+							<li>B S Raghavendra<strong>, </strong>N C Krishnan<strong>, </strong>G Sita, A G   Ramakrishnan, M Sriganesh, Prototype learning methods for online handwriting   recognition, International Conference on Document Analysis and Recognition   (ICDAR 2005), Seoul Korea, 2005.</li>
+							<li>P Saravanan<strong>, </strong>N C Krishnan<strong>, </strong>P V S S Prakash,   G V P Rao, Techniques for video mosaicing, World Enformatika Conference,   Istanbul, Turkey, 2005.</li>
+							<li>N C Krishnan, M C Prakash, G V P Rao, High-level feature   extraction in JPEG compressed domain, SPIE International symposium on optical   science and engineering, USA, 2004.</li>
+						</ol>
+					</div>
 			</div>
+
 
 
 
 			<div id = "footer">
 				<br>
 				<div id = "footer_hr">
-					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.45em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
+					<hr width = "60%" style = "transform:translateY(0.3em);"/>
 				</div>
-				
-
-
 				<div id = "footer_options">
 						<ul class = "toolbar" style = "margin:-1.4em; padding-top:0.5em;display:inline-block">
 						  <li><a href="https://www.linkedin.com/in/narayananck">LinkedIn</a></li>
@@ -131,18 +137,45 @@
 						  
 				</div>
 				<div id = "footer_hr">
-					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.55em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
+					<hr width = "60%" style = "transform:translateY(-0.5em);"/>
+					<div id = "tracker" style = "transform:translateY(-0.5em)">
+						<script type="text/javascript" src="http://s2.tracemyip.org/tracker/lgUrl.php?stlVar2=1327&amp;rgtype=4684NR-IPIB&amp;pidnVar2=41297&amp;prtVar2=1&amp;scvVar2=12"></script><noscript><a href="http://en.ipwebtracker.com" target="_blank"><img src="http://s2.tracemyip.org/tracker/1327/4684NR-IPIB/41297/1/12/ans/" alt="ip tracker" border="0"></a></noscript>
+
+						&nbsp;
+						<span style = "font-size:1.1em">
+							Designed by <a href = "https://github.com/ssrp/" style = "color:#888888"><b>Sai Samarth R Phaye</b></a>
+						</span>
+					</div>
 				</div>
 			</div>
- 	
 
 		</div>
 	</center>
+
+	<script>
+		function goto(value)
+		{
+			document.getElementById("journals").style.display = "none";
+			document.getElementById("books").style.display = "none";
+			document.getElementById("chapters").style.display = "none";
+			document.getElementById("conferences").style.display = "none";	
+			if(value == 0)
+			{
+				document.getElementById("journals").style.display = "block";
+			}
+			else if(value == 1)
+			{
+				document.getElementById("books").style.display = "block";
+			}
+			else if(value == 2)
+			{
+				document.getElementById("chapters").style.display = "block";
+			}
+			else if(value == 3)
+			{
+				document.getElementById("conferences").style.display = "block";	
+			}
+		}
+	</script>
 </body>
 </html>

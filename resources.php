@@ -14,32 +14,33 @@
 	<!--
 		Setting The Logo!
 		-->
-	<link rel="shortcut icon" href="images/logo.jpg">
+	<link rel="shortcut icon" href="images/icon.png">
 </head>
 <body>
 	<center>
 		<div id = "container">
-			<h1 style = "font-family:'Varela'; padding:0em; margin-bottom:0em"><a href = "http://www.iitrpr.ac.in" style = "color:black" target = "_blank">Indian Institute of Technology Ropar</a></h1>
-			<br><h3 style = "font-family:'Varela'; margin:0em; padding:0em">NARAYANAN C KRISHNAN</h3>
-			
+
+			<div style = "height:8em; width:75%; border:2px solid transparent; margin-top:0.2em; margin-bottom:-1em">
+				
+				<div id = "top_data" style= "display:inline-block; float: left;">
+						<h1 style = "font-family:'Varela'; padding:0em; margin-bottom:0em; padding-left:10px; padding-right:10px;"><a href = "http://www.iitrpr.ac.in" style = "color:black" target = "_blank">Indian Institute of Technology Ropar</a></h1>
+					<br><h3 style = "font-family:'Varela';float:left; margin:0em; padding:0em; padding-left:10px;display:inline-block; padding-right:10px">NARAYANAN C KRISHNAN</h3>
+				</div>
+				<img src = "images/logo.jpg" style = "float:right;height:100%; transform:translateY(0.5em)" />
+			</div>
+
 			<div id = "navbar">
 				<br>
 				<div id = "navbar_hr">
 					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.4em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
 				</div>
-				<div id = "navbar_options">
+				<div id = "navbar_options" style= "font-size:1.1em">
 						<ul class = "toolbar">
-						  <li><a href="./index.php">HOME</a></li>
-						  <li><a href="./research.php">RESEARCH</a></li>
-						  <li><a href="./publications.php">PUBLICATIONS</a></li>
-						  <li><a href="./teaching.php">TEACHING</a></li>
-						  <li><a class="active" href="./resources.php">RESOURCES</a></li>
+						  <li><a href="./index.php" style= "color:#0000A0">HOME</a></li>
+						  <li><a href="./research.php" style= "color:#0000A0">RESEARCH</a></li>
+						  <li><a href="./publications.php" style= "color:#0000A0">PUBLICATIONS</a></li>
+						  <li><a href="./teaching.php" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a class="active" href="./resources.php" style= "color:#0000A0">RESOURCES</a></li>
 						</ul>
 				</div>
 			</div>
@@ -54,22 +55,22 @@
 					
 			</div>
 
+			<div id = "main_container">
+					<center><h3 style = "font-family:'Varela'"><b>- Visualizations -</b></h3></center>
+
+					<ul>
+						<li><a href = "http://cse.iitrpr.ac.in/ckn/Resources/math-viz/svd.html" target = "_blank">Singular Value Decomposition</a></li>
+						<li><a href = "http://cse.iitrpr.ac.in/ckn/Resources/math-viz/gradient.html" target = "_blank">Gradient Descent</a></li>
+						<li><a href = "http://cse.iitrpr.ac.in/ckn/Resources/math-viz/lagrange.html" target = "_blank">Lagrange Multipliers</a></li>
+					</ul>
+			</div>
 
 
 			<div id = "footer">
 				<br>
 				<div id = "footer_hr">
-					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.45em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
+					<hr width = "60%" style = "transform:translateY(0.3em);"/>
 				</div>
-				
-
-
 				<div id = "footer_options">
 						<ul class = "toolbar" style = "margin:-1.4em; padding-top:0.5em;display:inline-block">
 						  <li><a href="https://www.linkedin.com/in/narayananck">LinkedIn</a></li>
@@ -78,13 +79,15 @@
 						  
 				</div>
 				<div id = "footer_hr">
-					<hr width = "75%"/>
-					<hr width = "75%" style = "margin-top:-1.55em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
-					<hr width = "75%" style = "margin-top:-1.5em; padding:0em"/>
+					<hr width = "60%" style = "transform:translateY(-0.5em);"/>
+					<div id = "tracker" style = "transform:translateY(-0.5em)">
+						<script type="text/javascript" src="http://s2.tracemyip.org/tracker/lgUrl.php?stlVar2=1327&amp;rgtype=4684NR-IPIB&amp;pidnVar2=41297&amp;prtVar2=1&amp;scvVar2=12"></script><noscript><a href="http://en.ipwebtracker.com" target="_blank"><img src="http://s2.tracemyip.org/tracker/1327/4684NR-IPIB/41297/1/12/ans/" alt="ip tracker" border="0"></a></noscript>
+
+						&nbsp;
+						<span style = "font-size:1.1em">
+							Designed by <a href = "https://github.com/ssrp/" style = "color:#888888"><b>Sai Samarth R Phaye</b></a>
+						</span>
+					</div>
 				</div>
 			</div>
  	

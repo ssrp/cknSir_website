@@ -16,7 +16,7 @@
 		-->
 	<link rel="shortcut icon" href="images/icon.png">
 </head>
-<body>
+<body onload = "setScreenSize()">
 	<center>
 		<div id = "container">
 
@@ -41,13 +41,13 @@
 						  <li><a href="./research.php" style= "color:#0000A0">RESEARCH</a></li>
 						  <li><a href="./publications.php" style= "color:#0000A0">PUBLICATIONS</a></li>
 						  <li><a class="active" href="./teaching.php" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a href="./people.php" style= "color:#0000A0">PEOPLE</a></li>
 						  <li><a href="./resources.php" style= "color:#0000A0">RESOURCES</a></li>
 						</ul>
 				</div>
 			</div>
 
 			<div id = "main_container">
-			
 				
 					<ul>
 						<li>Spring 2017: <a href="courses/s2017/csl302/csl302.html">Artificial Intelligence</a>, Advanced Machine Learning</li>
@@ -91,8 +91,9 @@
 				</div>
 			</div>
  	
-
 		</div>
 	</center>
+	
+	<script src="js/frame.js"></script>
 </body>
 </html>

@@ -16,7 +16,7 @@
 		-->
 	<link rel="shortcut icon" href="images/icon.png">
 </head>
-<body>
+<body onload = "setScreenSize()">
 	<center>
 		<div id = "container">
 
@@ -40,6 +40,7 @@
 						  <li><a class="active" href="./research.php" style= "color:#0000A0">RESEARCH</a></li>
 						  <li><a href="./publications.php" style= "color:#0000A0">PUBLICATIONS</a></li>
 						  <li><a href="./teaching.php" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a href="./people.php" style= "color:#0000A0">PEOPLE</a></li>
 						  <li><a href="./resources.php" style= "color:#0000A0">RESOURCES</a></li>
 						</ul>
 				</div>
@@ -95,6 +96,50 @@
 							</center>
 						</div>
 
+						<div class = "research_project">
+							<div class = "research_project_title">
+								Multi-Label Learning for Activity Recognition
+							</div>
+							<center>
+								<div class = "research_project_images">
+									<img class = "research_projects_image" src = "images/RP_ActivityRecog/img1.png" />
+									<br>
+								</div>
+								<div class = "research_project_abstract" style = "text-align:justify">
+									<b>Abstract: </b>
+									Advances in pervasive and ubiquitous computing have resulted in the development of sensors that can be easily deployed in the natural habitat of a human to acquire activity related data. However, inferring meaningful activity information from sensor data is still a challenging problem. This paper addresses the problem of inferring activities that are simultaneously performed by multiple residents in a smart home or single resident performing multiple activities concurrently. The paper formulates this problem as learning multiple activity labels from a sequence of sensor data. It investigates the suitability of multi-label learning algorithms inspired by decision trees as a proposed solution to the problem. The results obtained from the experiments on four benchmarking multi-resident activity datasets clearly indicate the superiority of decision tree ensemble (random forests) based approaches for multi-label learning.
+								</div>
+							</center>
+							<br>
+							<center>
+								<div class = "research_project_citations">
+									R Kumar, I Qamar, J S Virdi and N C Krishnan, Multi-label Learning for Activity Recognition, International Conference on Intelligent Environments, 152-155, 2015.
+								</div>
+							</center>
+						</div>
+
+						<div class = "research_project">
+							<div class = "research_project_title">
+								Supervised Heterogeneous Domain Adaptation via Random Forests
+							</div>
+							<center>
+								<div class = "research_project_images">
+									<img class = "research_projects_image" src = "images/RP_DomainAdapt/img1.png" />
+									<br>
+								</div>
+								<div class = "research_project_abstract" style = "text-align:justify">
+									<b>Abstract: </b>
+									Heterogeneity of features and lack of correspondence between data points of different domains are the two primary challenges while performing feature transfer. In this paper, we present a novel supervised domain adaptation algorithm (SHDA-RF) that learns the mapping between heterogeneous features of different dimensions. Our algorithm uses the shared label distributions present across the domains as pivots for learning a sparse feature transformation. The shared label distributions and the relationship between the feature spaces and the label distributions are estimated in a supervised manner using random forests. We conduct extensive experiments on three diverse datasets of varying dimensions and sparsity to verify the superiority of the proposed approach over other baseline and state of the art transfer approaches.
+								</div>
+							</center>
+							<br>
+							<center>
+								<div class = "research_project_citations">
+									 Sukhija, N C Krishnan, and G Singh, Supervised Heterogeneous Domain Adaptation via Random Forests, International Joint Conference on Artificial Intelligence, 2039-2045, 2016.
+								</div>
+							</center>
+						</div>
+
 
 
 
@@ -132,5 +177,6 @@
 	</center>
 	<script src="js/jquery-1.12.4.js"></script>
 	<script type = "text/javascript" src = "js/research.js"></script>
+	<script src="js/frame.js"></script>
 </body>
 </html>

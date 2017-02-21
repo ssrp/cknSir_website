@@ -16,7 +16,7 @@
 		-->
 	<link rel="shortcut icon" href="images/icon.png">
 </head>
-<body>
+<body onload = "setScreenSize()">
 	<center>
 		<div id = "container">
 			
@@ -39,6 +39,7 @@
 						  <li><a href="./research.php" style= "color:#0000A0">RESEARCH</a></li>
 						  <li><a class="active" href="./publications.php" style= "color:#0000A0">PUBLICATIONS</a></li>
 						  <li><a href="./teaching.php" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a href="./people.php" style= "color:#0000A0">PEOPLE</a></li>
 						  <li><a href="./resources.php" style= "color:#0000A0">RESOURCES</a></li>
 						</ul>
 				</div>
@@ -177,5 +178,6 @@
 			}
 		}
 	</script>
+	<script src="js/frame.js"></script>
 </body>
 </html>

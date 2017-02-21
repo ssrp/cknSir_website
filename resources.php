@@ -16,7 +16,7 @@
 		-->
 	<link rel="shortcut icon" href="images/icon.png">
 </head>
-<body>
+<body onload = "setScreenSize()">
 	<center>
 		<div id = "container">
 
@@ -40,6 +40,7 @@
 						  <li><a href="./research.php" style= "color:#0000A0">RESEARCH</a></li>
 						  <li><a href="./publications.php" style= "color:#0000A0">PUBLICATIONS</a></li>
 						  <li><a href="./teaching.php" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a href="./people.php" style= "color:#0000A0">PEOPLE</a></li>
 						  <li><a class="active" href="./resources.php" style= "color:#0000A0">RESOURCES</a></li>
 						</ul>
 				</div>
@@ -53,9 +54,6 @@
 						<iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=ph7ifjavghv241rqd93robluak%40group.calendar.google.com&amp;color=%230e61b9&amp;src=vo4to721p9fvlfs3pek6i84i30%40group.calendar.google.com&amp;color=%23b90e28&amp;src=ipja0j6ogp499att4mpubkicdk%40group.calendar.google.com&amp;color=%231B887A&amp;src=i738bpb8q48ovkdrh25k1bn9r8%40group.calendar.google.com&amp;color=%23711a76&amp;src=q8n4fqi2o8fb4dnt3a4h3cnd70%40group.calendar.google.com&amp;color=%2344a703&amp;src=95kvt7lfle443tqhktc9dl193k%40group.calendar.google.com&amp;color=%23882f00&amp;src=nau87h9ff530o81k87666oejlc%40group.calendar.google.com&amp;color=%23f64f00&amp;src=l4ebtv724772odtgof084rim3g%40group.calendar.google.com&amp;color=%23711a76&amp;ctz=Asia%2FCalcutta" style="border:solid 1px #777" width="90%" height="750" frameborder="0" scrolling="no"></iframe>
 					</center>
 					
-			</div>
-
-			<div id = "main_container">
 					<center><h3 style = "font-family:'Varela'"><b>- Visualizations -</b></h3></center>
 
 					<ul>
@@ -90,9 +88,10 @@
 					</div>
 				</div>
 			</div>
- 	
 
 		</div>
 	</center>
+	
+	<script src="js/frame.js"></script>
 </body>
 </html>

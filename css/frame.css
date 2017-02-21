@@ -19,8 +19,17 @@
   font-weight: normal;
   font-style: normal;
 }
+hr{
+    border: solid 1px #CCCCCC !important;
+    height: 5px #CCCCCC !important;
+}
 
-
+#tracker{
+	margin-top:-1em;
+}
+.toolbar{
+	color:#000080;
+}
 #body{
 	font-size:100%;
 	font-size: 1vw;
@@ -28,10 +37,12 @@
 }
 #container{
 	margin:5em;
-	margin-left:10em;
-	margin-right:10em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 1500px;
 	display:block;
-	transition:all 0.5s ease;
+	opacity: 0;
+	transition:all 0.2s ease;
 	border: 0.15em solid #CCCCCC;
 }
 #navbar_options{

@@ -19,7 +19,7 @@
 		-->
 	<link rel="shortcut icon" href="images/icon.png">
 </head>
-<body>
+<body onload = "setScreenSize()">
 	<center>
 		<div id = "container">
 			<div style = "height:8em; width:75%; border:2px solid transparent; margin-top:0.2em; margin-bottom:-1em">
@@ -41,6 +41,7 @@
 						  <li><a href="./research.php" style= "color:#0000A0">RESEARCH</a></li>
 						  <li><a href="./publications.php" style= "color:#0000A0">PUBLICATIONS</a></li>
 						  <li><a href="./teaching.php" style= "color:#0000A0">TEACHING</a></li>
+						  <li><a href="./people.php" style= "color:#0000A0">PEOPLE</a></li>
 						  <li><a href="./resources.php" style= "color:#0000A0">RESOURCES</a></li>
 						</ul>
 				</div>
@@ -250,6 +251,7 @@
 	<script src="js/dataTables.fixedHeader.min.js"></script>
 	<script src="js/dataTables.responsive.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
+	<script src="js/frame.js"></script>
 	<script src="js/responsive.bootstrap.min.js"></script>
 	<script>
 		$(document).ready(function() {

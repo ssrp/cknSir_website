@@ -1,5 +1,6 @@
 function setScreenSize()
 {
+	document.body.style.zoom = "80%";
 	var size = screen.width;
 	size = size - 125;
 	document.getElementById("container").style.width = size+"px";

@@ -37,7 +37,8 @@ hr{
 	font-family: "Sans Serif";
 }
 #container{
-	margin:4em;
+	margin-top:4em;
+	margin-bottom:4em;
 	width: 1300px;
 	margin-right: auto;
 	margin-left: auto;
@@ -88,8 +89,8 @@ hr{
 	border-radius: 2em;
 	padding:0.5em;
 	font-family: 'Sans Serif';
-	margin-left: 10em;
-	margin-right: 10em;
+	margin-left: 5.5em;
+	margin-right: 5.5em;
 	min-height:5em;
 	background:#fbfbfb;
 }

@@ -33,15 +33,15 @@ hr{
 #body{
 	font-size:100%;
 	font-size: 1vw;
+	transition:all 0.2s ease;
 	font-family: "Sans Serif";
 }
 #container{
-	margin:5em;
+	margin:4em;
+	width: 1300px;
 	margin-right: auto;
 	margin-left: auto;
-	width: 1350px;
 	display:block;
-	opacity: 0;
 	transition:all 0.2s ease;
 	border: 0.15em solid #CCCCCC;
 }
@@ -49,7 +49,7 @@ hr{
 	display:inline-block;
 	margin-top:-3.5em;
 	transform:translateY(-0.4em);
-	background-color: white;
+	background-color: transparent;
 }
 #footer_options{
 	display:inline-block;
@@ -62,7 +62,7 @@ hr{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    background-color: transparent;
 }
 
 .toolbar > li {
@@ -76,6 +76,7 @@ hr{
     text-align: center;
     padding: 14px 16px;
     font-family: 'Varela';
+    background: white;
     text-decoration: none;
 }
 

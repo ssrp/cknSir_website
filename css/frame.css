@@ -30,10 +30,10 @@ hr{
 .toolbar{
 	color:#000080;
 }
-#body{
+body{
+	zoom:80%;
 	font-size:100%;
-	font-size: 1vw;
-	transition:all 0.2s ease;
+	font-size: 14px;
 	font-family: "Sans Serif";
 }
 #container{
@@ -43,7 +43,6 @@ hr{
 	margin-right: auto;
 	margin-left: auto;
 	display:block;
-	transition:all 0.2s ease;
 	border: 0.15em solid #CCCCCC;
 }
 #navbar_options{
